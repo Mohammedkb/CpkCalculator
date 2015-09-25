@@ -55,7 +55,7 @@ shinyUI(fluidPage(
                                          
                                          h3('ui.R and server.R files'),
                                          p('Visit this link to view the ui.R and server.R files in github'),
-                                         tags$a(href='https://google.com',"www.google.com"),
+                                         tags$a(href='https://github.com/Mohammedkb/CpkCalculator',"https://github.com/Mohammedkb/CpkCalculator"),
                                          
                                          h3('Application developed by:'),
                                          p('Mohammed K. Barakat')
