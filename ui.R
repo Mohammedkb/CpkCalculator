@@ -49,7 +49,7 @@ shinyUI(fluidPage(
                                          p('This application helps you calculate your process capability index by providing the above as input variables. Additionally, it calculates the Defect Per Million Opportunity (DPMO) which is the expected number of defected items per million produced. This is represented by the red area under the curve outside the lines of specification limits.'),
                                          p('Besides, the application calculates the Sigma Level of the process using the formula:'),
                                          
-                                         withMathJax("$$0.8406+\\sqrt{29.37-2.221*log(DPMO)}$$"),
+                                         withMathJax("$$0.8406+\\sqrt{29.37-2.221*ln(DPMO)}$$"),
                                          
                                          p('Sigma Level is a measure of the defect rate of a process based on the DPMO estimate. The higher the Sigma Level, the better the performance is. For example, a process of 6-sigma level has 3.4 defects per million opportunity. Whereas a process of 3-sigma level has 66,807 DPMO.'),
                                          
